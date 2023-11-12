@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM CÔNG THỨC NẤU ĂN"
+        android:textColor="#D5272B"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Tên món ăn"
+            android:textAlignment="center"
+            android:textColor="@color/PRIMARY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="7dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:id="@+id/CRecipesName"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Giới thiệu"
+            android:textAlignment="center"
+            android:textColor="@color/PRIMARY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="7dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:id="@+id/CIntroduce"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Nguyên liệu"
+            android:textAlignment="center"
+            android:textColor="@color/PRIMARY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="7dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:id="@+id/CIngredients"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Hướng dẫn nấu ăn"
+            android:textAlignment="center"
+            android:textColor="@color/PRIMARY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:id="@+id/CGuide"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Loại"
+            android:textAlignment="center"
+            android:textColor="@color/PRIMARY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="7dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/recipe_kind">
+            <RadioButton
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Á"
+                android:padding="7dp"
+                android:checked="true"
+                android:id="@+id/C_Á"/>
+
+            <RadioButton
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Âu"
+                android:padding="7dp"
+                android:id="@+id/C_Âu"/>
+
+            <RadioButton
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Việt"
+                android:padding="7dp"
+                android:id="@+id/C_Việt"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="Hình ảnh món ăn"
+            android:textAlignment="center"
+            android:textColor="@color/PRIMARY"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginRight="30dp"/>
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_panorama_24"
+            android:id="@+id/cavatar"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_pressed"
+        android:text="Tạo"
+        android:textColor="@color/PRIMARY"
+        android:layout_marginHorizontal="140dp"
+        android:layout_marginVertical="70dp"
+        android:id="@+id/save"
+        />
+
+
+</LinearLayout>

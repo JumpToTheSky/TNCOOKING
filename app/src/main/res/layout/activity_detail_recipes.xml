@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".recipes.DetailRecipesActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/BACK"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/back"
+            />
+        <Button
+            android:id="@+id/HOME"
+            android:layout_width="60dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="300dp"
+            android:background="@drawable/img_1"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="ScrollView"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/shape">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/Avatar"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:id="@+id/RecipesName"
+                        android:textColor="#D5272B"
+                        android:text="RecipesName"
+                        android:textStyle="bold"
+                        android:textSize="25sp"
+                        android:padding="10dp"/>
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#A0A0A0" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:id="@+id/Introduce"
+                    android:text="Introduce"
+                    android:padding="10dp"
+                    android:textColor="#01519A"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:background="@drawable/shape"
+                android:layout_margin="20dp"
+                android:id="@+id/Ingredients"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredients"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:background="@drawable/shape"
+                android:layout_margin="20dp"
+                android:id="@+id/guide"/>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="7dp"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:text="Let's  Cook"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/button_pressed"
+                android:backgroundTint="@color/PRIMARY"
+                android:id="@+id/LetCook"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

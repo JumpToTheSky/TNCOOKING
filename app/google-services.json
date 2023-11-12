@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "733136549361",
+    "project_id": "tncooking-38146",
+    "storage_bucket": "tncooking-38146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733136549361:android:ae45307332f90680f68050",
+        "android_client_info": {
+          "package_name": "com.example.tncooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733136549361-mouln2s12vuk6fuu8q0c2t4rja8r92tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjKT-85zVM_4KOqfDyImdvxCZzo0WR_II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733136549361-mouln2s12vuk6fuu8q0c2t4rja8r92tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

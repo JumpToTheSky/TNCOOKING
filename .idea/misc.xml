@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable-v24/bg_splashscreen.xml" value="0.15" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.15" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable-v24/shape.xml" value="0.165" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable-v24/shape_row.xml" value="0.165" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable/button_pressed.xml" value="0.165" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.15" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable/ic_baseline_panorama_24.xml" value="0.165" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.165" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/a.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/activity_create_recipe.xml" value="0.1" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/activity_detail_recipes.xml" value="0.25" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/activity_login1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/activity_watch_video.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/au.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/fragment_navi_favorite.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/fragment_navi_home.xml" value="0.22" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/fragment_navi_key.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/fragment_navi_search.xml" value="0.1" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/hottrend.xml" value="0.25" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/item_column.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/row_item.xml" value="0.25" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/layout/viet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/menu/menubottom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/menu/menutoolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15" />
+        <entry key="..\:/Users/Vstore/Desktop/TNCOOKING/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/drawable-v24/bg_splashscreen.xml" value="0.165" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.165" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/layout/activity_login1.xml" value="0.20416666666666666" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/layout/fragment_navi_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/layout/fragment_navi_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/layout/row_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/dev-hk2nam2/TNCOOKING/app/src/main/res/menu/menubottom.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
